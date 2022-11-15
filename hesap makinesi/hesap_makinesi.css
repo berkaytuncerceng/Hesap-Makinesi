@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: ease 0.18s;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 12px;
+    background-color: rgba(113, 112, 112, 0.934);
+}
+
+.hesap_makinesi{
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+}
+
+.giris{
+    width: 100%;
+    font-size: 4rem;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button{
+    height: 50px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(194, 194, 194);
+    font-size: 2.5rem;
+    color: rgba(42, 41, 41, 0.908);
+}
+
+button:hover{
+    background-color: rgb(212, 212, 212);
+}
+.operator{
+    color: rgb(98, 98, 236)
+}
+.temizle{
+    background-color: rgb(220, 57, 57);
+    border-color: rgb(181, 82, 52);
+    color: rgb(216, 213, 213);
+}
+
+.temizle:hover{
+    background-color: rgb(255, 0, 0);
+}
+.esittir{
+    background-color: rgb(85, 85, 179);
+    border-color: rgb(0, 119, 255);
+    color: white;
+    height: 100%;
+    grid-area: 2/4/5/5;
+}
+
+.esittir:hover{
+    background-color: rgb(13, 77, 116);
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    padding: 10px;
+}
+
